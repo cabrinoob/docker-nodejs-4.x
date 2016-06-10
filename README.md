@@ -1,7 +1,7 @@
 ### Utilisation
 Dans votre Dockerfile, basez vous sur cette image pour déployer vos applications Node 4.x :
 
-    FROM fmeriot/docker-nodejs-4.x
+    FROM fmeriot/nodejs
     
     WORKDIR /nodeapp
     ADD package.json /nodeapp/
